@@ -1,0 +1,24 @@
+.header{
+    background-color: #106470;
+    height: 5rem;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0.5rem;
+    align-items: center;
+    
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+/*
+color codes:
+#e0ebe7, #3f9c87, #5c6462, 
+#3a8699,#d7e1ea,#699fb0, #d7e1ea
+#e7e9eb - grey, #c1c1c1 - dark grey
+#106470,#0c5963,#28828a,#003a41
+*/

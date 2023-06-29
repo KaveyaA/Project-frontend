@@ -1,0 +1,18 @@
+.footer{
+    height: 7rem;
+    border: 1px solid black;
+    display: flex;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background-color: #106470;
+    color: white;
+}
+.vertical {
+    border-left: 0.10rem solid gray;
+    height: 6rem;
+
+}
+.footerboxes{
+    padding: 1rem;
+    width: 33%;
+}

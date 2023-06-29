@@ -1,0 +1,45 @@
+.login{
+    display: flex;
+    margin: 5rem;
+   justify-content: center;
+}
+.adminBox, .facultyBox{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    /* background-color: #e0ebe7; */
+    /* background-color: #7EDFDB; */
+    background-color: #BFD8D9;
+    border-radius: 10px;
+    box-shadow: 5px 7px;
+}
+.fieldset{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.loginfor{
+    color: #0c5963;
+    font-size:x-large;
+
+}
+.fieldset input{
+    border-radius: 5px;
+    border: 2px solid #0c5963;
+    margin:  0.5rem;
+    font-size:1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input::placeholder{
+    font-family:monospace;
+}
+.button{
+    border-radius: 5px;
+    color: white;
+    margin:  0.5rem;
+    background-color: #106470;
+    font-size: large;
+    padding: 5px;
+}

@@ -1,0 +1,136 @@
+.navbar{
+    background-color: #0c5963;
+    height: 3rem;
+    width: 100%;
+   
+    float: right;
+}
+.dropdown{
+  display: flex; 
+ 
+  width: 100%;
+  justify-content: end;
+  
+}
+.tabssidenav{
+  margin-top: 0.4rem;
+}
+.tabssidenav:hover{
+  transition: 0.3s;
+  background-color: #003a41;
+  border-radius: 0.5rem;
+ 
+}
+
+#adminname{
+    color: white;
+    font-weight: 500;
+    font-size:1.5rem;
+    padding: 0.5rem;
+    float: left;
+    width: 30%;
+   display: flex;
+   gap: 1rem;
+   
+   width: 60%;
+    justify-content:left;
+    /* margin-left: 5%; */
+   
+}
+#adminprofile{
+  margin-top: 0.2rem;
+  
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+   
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn{
+    color:white;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropbtn:hover
+    .dropdown-content {
+        display: block;
+    }
+  .dropbtn:hover{
+    transition: 0.3s;
+    background-color: #003a41;
+  }
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content a:hover {background-color: #BFD8D9;}
+/* .dropdown:hover .dropdown-content {display: block;} */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+.contain{
+  position: relative;
+}
+#logoutbutton{
+  margin-left: 2rem;
+  height: 3rem;
+  width: 5rem;
+ margin-top: 0%;
+  color: black;
+  border: none;
+  margin:  0.5rem;
+  background-color: #BFD8D9;
+  font-size: large;
+  padding: 5px;
+}
+.menubutton{
+  cursor: pointer;
+}
+.dropdownmenu{
+  display: none;
+  position: absolute;
+}
+.menubutton:hover .dropdownmenu{
+display: block;
+}
+.logout{
+  position: absolute;
+  border: 1px solid black;
+  width: 10rem;
+  /* margin-top: 3rem; */
+  padding: 0.5rem;
+  text-align: center;
+  background-color: white;
+display: none;
+color: black;
+}
+#adminprofile{
+  margin-top: 0.2rem;
+}
+.contain:hover .logout{
+  display: block;
+  cursor: pointer;
+  /* border: 10px solid block; */
+}
+.adhome{
+
+  color: white;
+  margin-top: 1.3rem;
+  text-decoration: none;
+ margin-right: 0.8rem;
+}
+

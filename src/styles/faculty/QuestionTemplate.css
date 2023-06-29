@@ -1,0 +1,65 @@
+.assess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+}
+#qno{
+    width: 2rem;
+}
+#cobl{
+    width: 3rem;
+}
+#qtext{
+    width: 20rem;
+    border: 1px solid black;
+}
+#qpdetails{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.savebutton{
+    border-radius: 3px;
+    color: black;
+    margin:  0.5rem;
+    background-color: #BFD8D9;
+    font-size: medium;
+    padding: 2px;
+    margin-left: 45%;
+}
+.printqptable{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.printqptable td{
+    border: 1px solid black;
+    width: 3rem;
+}
+#qpcname{
+    font-weight: 500;
+}
+#qptitles{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+#qplength{
+    font-weight: 600;
+    font-size: 1rem;
+    color:red;
+}
+.qptable{
+    font-size: 1rem;
+}
+.qptable tr,td,input,select{
+    height: 1.5rem;
+   
+    font-size: 1rem;
+}
+.qptable thead,tr,td{
+    font-weight: 500;
+}

@@ -1,0 +1,38 @@
+.cadiv{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#caheading{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.allocatecourses{
+    display: flex;
+    
+    flex-direction: column;
+    width:30%;
+}
+.labelinput{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+    
+}
+.labelinput label{
+    text-align: left;
+    width: 10rem;
+    font-size: larger;
+    margin-top: 0.4rem;
+}
+.labelinput select{
+    text-align: center;
+    width: 10rem;
+    border-radius: 5px;
+    border: 2px solid #0c5963;
+    margin:  0.5rem;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

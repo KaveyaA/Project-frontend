@@ -1,0 +1,31 @@
+.bodyviewbatch{
+    
+    text-align: center;
+   
+}
+#viewbatchheading{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.batchcard{
+    /* display: grid;
+    grid: auto auto/auto auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem;
+    /* border: 2px solid black; */
+}
+.bcard{
+    display: flex;
+    gap: 0.25rem;
+    font-weight: 500;
+    flex-direction: column;
+    border: 1px solid #c1c1c1;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: 0.4rem 0.3rem #c1c1c1;
+    border-radius: 0.25rem;
+}

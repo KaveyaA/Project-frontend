@@ -1,0 +1,31 @@
+.displaytable{
+    padding: 1rem;
+    width: fit-content;
+    border: 1px solid black;
+    border-collapse: collapse;
+}.displaytr{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.displaytd{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 6rem;
+}
+
+.displaytd input{
+    width: 4rem;
+}
+.displayroll{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 10rem;
+}
+/* .displaytable tr:nth-child(even){background-color: #BFD8D9;} */
+
+.highlighted {
+    /* border-color: red; */
+    background-color: #BFD8D9;
+    transition: background-color 0.5s ease;
+    z-index: 8;
+  }

@@ -1,0 +1,46 @@
+.bodyPO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+.bodyP{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+#headingpo{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+.coursetable{
+    width: fit-content;
+    background-color: #BFD8D9;
+    border-radius: 10px;
+    border-radius: 2rem;
+    border-collapse: collapse;
+}
+.coursetable td{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.poatable{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.poatable td{
+    width: 4rem;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1rem;
+}
+#cnamepoa{
+    width: 10rem;
+}
