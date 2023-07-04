@@ -3,6 +3,8 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import SideNavbar from './SideNavbar';
 import '../../styles/admin/CourseAllocation.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function CourseAllocations() {
   const [showDiv, setShowDiv] = useState(false);
@@ -62,7 +64,12 @@ const handleAllocate = () => {
   axios.post('http://localhost:5000/allocatecourses',{
     batch : select,facultyId : selectedfac,courseName : selCourse
   }).then((res) =>{
-    alert(res.data)
+    toast.success(res.data,{position: "top-center",autoClose:3000})
+    setShowDiv(false)
+    setsem(1)
+    setSelected('')
+    setselcourse('')
+    setselectedfac('')
   })
   console.log('batch-',select,'course-',selCourse,'fac-',selectedfac)
 }
@@ -161,6 +168,7 @@ const handleCancel = () => {
       {/* <button onClick={handleLogout}>Logout</button> */}
     <button className='cancelbutton' onClick={() => {navigate('/adminhome')}}>Cancel</button>
     </div>
+    <ToastContainer/>
       </>
       )
 }

@@ -597,7 +597,7 @@ console.log('guuu',documents)
         ))}
    </tbody>
  </table>
- <button>confirm</button>
+
  <button onClick={handleSendDocuments} className='button'>Submit</button>
  </div>
 }
